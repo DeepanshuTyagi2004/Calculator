@@ -1,0 +1,74 @@
+html {
+    min-height: 100%;
+    background-image: linear-gradient(red, yellow, blue);
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+}
+
+.row {
+    width: unset;
+
+    border-radius: 30%;
+}
+
+h1 {
+    margin: 3% auto 2% auto;
+    font-size: 520%;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.calc-body {
+    width: 450px;
+    background-color: rgb(34, 37, 45);
+    border-radius: 10%;
+}
+
+button {
+    height: 1%;
+    font-size: 50px;
+    border-radius: 20%;
+    border: none;
+    padding: 1% 5% 1% 5%;
+    margin: 2%;
+    background-color: rgb(34, 37, 45);
+}
+
+.buttons {
+    background-color: rgb(42, 45, 55);
+    padding-top: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    border-radius: 10%;
+}
+.one button{
+
+    font-size: 30px;
+    padding: 10% auto 7% auto;
+}
+
+.screen {
+
+    padding: 10% 10% 5% 10%;
+    text-align: right;
+}
+
+.lower-screen {
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 270%;
+    color: rgb(255, 255, 255);
+}
+
+.upper-screen {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 150%;
+}
